@@ -102,7 +102,7 @@ P {
 }
 
 footer {
-  padding: 1.625rem;
+  padding: 0.85rem;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -113,8 +113,7 @@ footer {
 
 h3 {
   color: #ffffff;
-  font-size: 1.3rem;
-  font-weight: 500;
+  padding: 0.85rem;
 }
 
 a {
