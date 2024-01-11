@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Calculadora de Juros</title>
+</head>
+
+<body>
+  <main id="container">
+
+    <div id="calculator">
+      <h1>Calculadora de Juros Compostos</h1>
+
+      <div id="input_box">
+          <div class="input-field">
+            <label for="value">Aplicação <i>(Aporte Financeiro)</i> :</label>
+            <input type="number" id="value" />
+          </div>
+
+          <div class="input-field">
+            <label for="fee">Taxa de Juros <i>(a.m.)</i> :</label>
+            <input type="number" id="fee" />
+          </div>
+
+          <div class="input-field">
+            <label for="time">Tempo de Rendimento <i>(a.m.)</i> :</label>
+            <input type="number" id="time" />
+          </div>
+      </div>
+
+    <div id="result">
+      <h2>Resultado</h2>
+      <p><i>(Rendimento)</i></p>
+      <span id="total">R$ 0,00</span>
+    </div>
+      
+    <button id="calculate">Calcular</button>
+
+    </div>
+
+    <footer>
+      <h3>Copyright &copy; 2024 - Desenvolvido por <b><a href="https://www.linkedin.com/in/valdezjulian" 
+          target="_blank" title="Julian Valdez | LinkedIn">Julian Valdez</a></b></h3>
+    </footer>
+
+  </main>
+
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

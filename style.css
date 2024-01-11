@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+:root {
+  --linear-gradient: 90deg, #FF0463, #00E701, #045398;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(/assets/background.jpg) 50%;
+  color: #ffffff;
+}
+
+#calculator {
+  width: 100%;
+  max-width: 400px;
+  background-color: #100E1C;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.323);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+#calculator h1 {
+  font-size: 30px;
+  position: relative;
+}
+
+#calculator h1::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 150px;
+  background: linear-gradient(90deg, #FF0463, #045398);
+  bottom: 5px;
+}
+
+#input_box {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-field label {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.input-field input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #045398;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.input-field input:focus {
+  outline: none;
+}
+
+#result {
+  text-align: center;
+}
+
+#total {
+  font-size: 40px;
+}
+
+#calculate {
+  background: linear-gradient(90deg, #FF0463, #045398);
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+P {
+  font-size: 13px;
+}
+
+footer {
+  padding: 1.625rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: #ffffff;
+  background: #100E1C;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+a {
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  #calculator {
+    max-width: 600px;
+  }
+}
