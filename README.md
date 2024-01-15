@@ -26,8 +26,10 @@
   Essa ferramenta simplifica o processo de previsão do crescimento do investimento, permitindo que o usuário compreenda de forma clara e instantânea 
   como os juros compostos impactam o valor total da aplicação ao longo do tempo.</p>
 <br>
+<h4><b>• Apresentação do Projeto:</b></h4>
+<img src="./assets/calculadora-de-juros(desktop).jpg"/>
 <br>
-<p><b>Apresentação do Projeto:</b> <i>(variação de telas)</i></p>
-<img src="./assets/mockup-calculadora-de-juros-compostos.png"/>
+<h5><i>• Variações de telas: desktop, tablet e smartphone.</i></h5>
+<img src=./assets/mockup-calculadora-de-juros-compostos.png/>
 
  
